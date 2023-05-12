@@ -1,0 +1,2 @@
+export const USER_WALLET_TYPE='USER_WALLET_TYPE'
+

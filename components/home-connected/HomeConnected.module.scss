@@ -1,0 +1,164 @@
+.intro{
+    font-family: "Airbnb Cereal App Bold";
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    @media (min-width: 768px) {
+        padding: 25px 0px;
+        font-size: 30px;
+    }
+}
+
+.swapAddressLabel{
+    font-family: "Airbnb Cereal App Bold";
+    font-size: 14px;
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+    padding-bottom: 5px;
+}
+
+.address{
+    color:#9C9CBA;
+    font-size: 14px;
+}
+
+.networkLabel{
+    font-family: "Airbnb Cereal App Bold";
+    padding: 0px 16px;
+    font-size: 14px;
+    @media (min-width: 768px) {
+        padding: 0px 24px;
+        font-size: 20px;
+    }
+}
+
+.middleArrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:20px;
+    @media (min-width: 768px) {
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    
+}
+
+.addNetwork{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    @media (min-width: 768px) {
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+.addNetworkLabel{
+    opacity: 0.6;
+}
+
+.addNetworkButton{
+    cursor: pointer;
+    background-color: #260094;
+    opacity: 1;
+    padding: 0px 10px;
+    border-radius: 64px;
+    white-space: nowrap;
+    &:hover{
+        color:white;
+    }
+}
+
+.amountContainer{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+                linear-gradient(101deg,#004fff, #cb06ed, #ff0062, #ff8500 );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #00001e inset;
+    border-radius: 8px;
+    @media (min-width: 768px) {
+        width: 65%;
+        margin-top: 30px;
+    }
+    @media (min-width: 992px) {
+        width: 50%;
+    }
+}
+
+.minMaxContainer{
+    padding-left: 1%;
+    color: rgba(156, 156, 186, 0.5);
+    width:100%;
+    font-size: 12px;
+    @media (min-width: 768px) {
+        width: 65%;
+        font-size: 14px;
+    }
+    @media (min-width: 992px) {
+        width: 50%;
+    }
+}
+
+.capsAmount{
+    font-family: "Airbnb Cereal App Bold";
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background: linear-gradient(90deg, #004fff, #cb06ed, #ff0062, #ff8500);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 1px transparent;
+}
+
+.maxButton{
+    font-size: 14px;
+    background-color: #004FFF;
+    text-align: center;
+    border-radius: 64px;
+    float: right;
+    cursor:pointer;
+}
+
+
+.maskedInput{
+    width:0; 
+    height:0; 
+    opacity:0;
+}
+
+.errorNetworkLabel{
+    font-family: "Airbnb Cereal App Bold";
+    font-size: 16px;
+}
+
+.modalConnectTitle{
+    font-size: 24px;
+}
+
+.modalConnectLabel{
+    font-size: 18px;
+}
+
+.connectButton{
+    line-height: 30px;
+    width: 100%;
+}
+
+.buttonContainer{
+    width: 90%;
+    @media (min-width: 768px) {
+        width: 70%;
+    }
+}
